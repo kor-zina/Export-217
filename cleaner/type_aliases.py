@@ -1,2 +1,2 @@
-UserType = str
+UserRole = str
 UserName = str

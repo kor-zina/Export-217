@@ -1,14 +1,14 @@
 from pydantic import BaseModel
-from cleaner.type_aliases import UserType, UserName
+from cleaner.type_aliases import UserRole, UserName
 
-USER_TYPES = [
+ROLES = [
     'bot', 'reader', 'player', 'master'
 ]
 
 class User(BaseModel):
     name: UserName
     pseudonyms: list[UserName]
-    type: UserType
+    Role: UserRole
 
 def foo():
     print("You're good to go")
