@@ -1,1 +1,13 @@
-/baseline_export/
+# ignore all except the first one (messages.html)
+/baseline_export/messages1*.html
+/baseline_export/messages2*.html
+/baseline_export/messages3*.html
+/baseline_export/messages4*.html
+/baseline_export/messages5*.html
+/baseline_export/messages6*.html
+/baseline_export/messages7*.html
+/baseline_export/messages8*.html
+/baseline_export/messages9*.html
+
+# ignore subfolders
+/baseline_export/*/
