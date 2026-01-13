@@ -1,0 +1,2 @@
+UserType = str
+UserName = str

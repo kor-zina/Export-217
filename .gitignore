@@ -1,0 +1,5 @@
+# No need to push bytecode
+*.pyc
+
+# My launch.json is irrelevant
+/.vscode
