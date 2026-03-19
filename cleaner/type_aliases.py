@@ -1,2 +1,0 @@
-UserRole = str
-UserName = str
