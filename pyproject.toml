@@ -1,0 +1,11 @@
+[project]
+name = "export217"
+version = "0.1.0"
+description = "A little pet-project for the nostalgy's sake"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "bs4",
+    "os",
+    "re",
+]
