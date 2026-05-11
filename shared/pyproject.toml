@@ -1,0 +1,10 @@
+[project]
+name = "export217-shared"
+version = "0.1.0"
+description = "A collection of SQLAlchemy models, shared enums, Pydantic DTOs, DB utilities, and shared constants"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic>=2.13.4",
+    "sqlalchemy>=2.0.49",
+]

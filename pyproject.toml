@@ -1,16 +1,6 @@
-[project]
-name = "export217"
-version = "0.1.0"
-description = "A little pet-project for the nostalgy's sake"
-readme = "README.md"
-requires-python = ">=3.12"
-dependencies = [
-    "alembic>=1.18.4",
-    "beautifulsoup4>=4.14.3",
-    "fastapi>=0.136.1",
-    "lxml>=6.1.0",
-    "pydantic>=2.13.4",
-    "pytest>=9.0.3",
-    "sqlalchemy>=2.0.49",
-    "typer>=0.25.1",
+[tool.uv.workspace]
+members = [
+    "refiner",
+    "shared",
+    "web-server",
 ]

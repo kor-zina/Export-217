@@ -1,3 +1,6 @@
+# No need to push any .venv
+*.venv
+
 # No need to push bytecode
 *.pyc
 
