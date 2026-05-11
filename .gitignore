@@ -3,4 +3,9 @@
 
 # My launch.json is irrelevant
 /.vscode
+
+# Actual dump is 486MB of HTML
 /raw_export_data
+
+# Actual .env contains my personal data
+.env
