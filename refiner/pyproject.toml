@@ -10,4 +10,11 @@ dependencies = [
     "numpy>=2.4.4",
     "pandas>=3.0.3",
     "scikit-learn>=1.8.0",
+    "export217-shared",
 ]
+
+[tool.hatch.build.targets.wheel]
+packages = ["export217_refiner"]
+
+[tool.uv.sources]
+export217-shared = { workspace = true }

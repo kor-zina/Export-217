@@ -142,6 +142,7 @@ version = "0.1.0"
 source = { virtual = "refiner" }
 dependencies = [
     { name = "beautifulsoup4" },
+    { name = "export217-shared" },
     { name = "lxml" },
     { name = "numpy" },
     { name = "pandas" },
@@ -151,6 +152,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "beautifulsoup4", specifier = ">=4.14.3" },
+    { name = "export217-shared", editable = "shared" },
     { name = "lxml", specifier = ">=6.1.0" },
     { name = "numpy", specifier = ">=2.4.4" },
     { name = "pandas", specifier = ">=3.0.3" },
@@ -160,7 +162,7 @@ requires-dist = [
 [[package]]
 name = "export217-shared"
 version = "0.1.0"
-source = { virtual = "shared" }
+source = { editable = "shared" }
 dependencies = [
     { name = "alembic" },
     { name = "asyncpg" },
